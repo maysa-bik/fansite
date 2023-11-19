@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    block-size: border-box;
+}
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.179),rgb(0,0,0,0.6));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+  
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.179),rgb(0,0,0,0.6))
+}
+.logo {
+    color: black;
+    font-size: 36px;
+    font-style: italic;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a {
+    color: #FFE4C4;
+    text-decoration: none;
+    font-weight: bold;
+    background-size: 33px;
+
+}
+nav ul li a:hover {
+    color: whitesmoke;
+    transition: .3s;
+}
+button {
+    border: none;
+    background: #FFE4C4;
+    padding: 12px 20px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    margin-bottom: 10px;
+}
+button:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+    
+}
+button a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+
+
+.videos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    margin-top: 10%;
+    justify-content: space-around;
+    padding-left: 8%;
+
+} 
+
+.videos, iframe {
+    border-radius: 25px 8em 8%;
+
+}
+
+
+.photos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: center;
+    position: center;
+    justify-content: space-around;
+    padding-left: 8%;
+}
+.photos img {
+    width: 80%;
+    height: 90vh;
+    margin-top: 10%;
+}
+.photos .img1 {
+    border-top-left-radius: 250px;
+
+
+}
+.photos .img2 {
+    border-top-right-radius: 50%;
+    
+
+}
+.photos .img3 {
+    border-bottom-left-radius: 50%;
+    
+}
+.photos .img4 {
+    border-bottom-right-radius: 50%;
+    
+}
+
+

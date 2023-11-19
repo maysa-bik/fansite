@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    block-size: border-box;
+}
+body {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.179),rgb(0,0,0,0.6)),url(images/photo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200vh;
+  
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.179),rgb(0,0,0,0.6))
+}
+.logo {
+    color: black;
+    font-size: 36px;
+    font-style: italic;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a {
+    color: #FFE4C4;
+    text-decoration: none;
+    font-weight: bold;
+    background-size: 33px;
+
+}
+nav ul li a:hover {
+    color: whitesmoke;
+    transition: .3s;
+}
+button {
+    border: none;
+    background: #FFE4C4;
+    padding: 12px 20px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    margin-bottom: 10px;
+}
+button:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+    
+}
+button a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+.main-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "open sans";
+    padding-top: 0px;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(45deg, #FFE4C4, #020303);
+}
+.footer-section a{
+    font-size: 30px;
+   text-decoration: none;
+   height: auto; 
+   font-family: "open sans";
+   padding-top: 40px;
+   color: #fff;
+}
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+}
+.footer-bottom p{
+    font-size: 30px;
+    color: #fff;
+}
